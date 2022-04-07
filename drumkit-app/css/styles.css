@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;0,800;0,900;1,900&family=Merriweather+Sans:ital@0;1&display=swap');
+
+body{
+font-family: 'Kanit', sans-serif;
+background: rgba(19, 92, 99, 0.945);
+}
+
+.container{
+    width: 80vw;
+    height: 80vh;
+    margin: 50px auto;
+    background: url("https://c0.wallpaperflare.com/preview/734/944/13/black-and-gray-drum-set-on-stage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.5%;
+    border: 3px solid rgba(0,0,0,0.9);
+    border-radius: 2%;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.4)
+}
+
+.head{
+    color: wheat;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding-top: 2%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+kbd{
+font-family: 'Merriweather Sans', sans-serif;
+color: whitesmoke;
+font-size: 60px;
+font-weight: 600;
+
+}
+
+.keys{
+border: 3px solid chocolate;
+margin:12px;
+padding: 3px;
+display: inline-block;
+width: 80px;
+height: 80px;
+text-align: center;
+background: rgba(0,0,0,0.6);
+border-radius: 3%;
+transition: all 0.07s ease;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
